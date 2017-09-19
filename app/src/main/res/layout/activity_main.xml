@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apps.tdt.thejan.salesdemoapp.activities.MainActivity"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_monthly_sale"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_button"
+            android:layout_margin="5dp"
+            android:drawableTop="@drawable/icon_monthly"
+            android:paddingTop="40dp"
+            android:text="Monthly Sales"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"
+            />
+
+        <Button
+            android:id="@+id/hourly_activity_count"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_button"
+            android:layout_margin="5dp"
+            android:drawableTop="@drawable/icon_chart"
+            android:paddingTop="40dp"
+            android:text="Hourly Activity Count"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
